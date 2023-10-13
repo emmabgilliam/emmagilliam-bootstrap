@@ -1,5 +1,7 @@
 # ICJ Bootstrap Template
 
+This is Emma Gilliam's Bootstrap 5 class project created October 9, 2023 and due October 11, 2023.
+
 This template goes along with the [Bootstrap lessons](https://utdata.github.io/icj-class/bs-00-intro.html) for Intro to Coding for Journalists.
 
 It uses Bootstrap 5 and a Gulp setup to support a development environment with Sass and image management.
