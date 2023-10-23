@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
+
 <head>
   <title>Bootstrap 5 Layout</title>
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -8,8 +9,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg">
-  <nav class="navbar bg-primary" data-bs-theme="dark">
+  <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
     <div class="container"
      <a class="navbar-brand" href="#">Navbar</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,74 +43,56 @@
   <div class="container">
     <header class="bg-white my-4 p-5 rounded">
       <h1 class="display-4">Breaking News today</h1>
-      <p class="lead">It's my birthday</p>
-      <button type="button" class="btn btn-primary btn-lg">Large button</button>
+      <p class="lead">The Gutenberg Bible is the best book I've ever read</p>
+      <button type="button" class="btn btn-primary btn-lg">I agree</button>
     </header> 
   <div class="container text-center">
-     <div class="row">
-      <div class="col-sm-3 col-md-4 bg-danger">
-        Column
-      </div>
-      <div class="col-sm-6 col-md-4 bg-warning">
-         Column
-      </div>
-      <div class="col-sm-3 col-md-4 bg-success">
-        Column
-      </div>
-      </div>
-      <section class="container">
-        <div class="row">
-          <div class="col-lg-6">
-              <h2>An important heading</h2>
-              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nostrum deleniti quo excepturi expedita enim veniam.</p>
-              <p>Dolorem nisi quia nostrum laudantium obcaecati eveniet cupiditate tempora dolorum a. Nisi nulla nesciunt saepe eligendi vel natus ex odit ut exercitationem.</p>
-              <p>Inventore, quo similique modi doloribus sed voluptas incidunt excepturi molestiae ea impedit cupiditate ut nobis commodi.</p>
-              <p class="tagline">– By Johannes Gutenberg in Mainz</p>
-          </div>
-          <div class="col-lg-6">
-            <figure class="figure">
-              <img src="img/gutenberg.jpeg" class="figure-img img-fluid" alt="Guetenberg Bible">
-              <figcaption class="figure-caption">A caption for the above image.</figcaption>
-            </figure>
-          </div>
+    <section class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-8">
+          <h2>My favorite quote</h2>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nostrum deleniti quo excepturi expedita enim veniam.</p>
+          <p>Dolorem nisi quia nostrum laudantium obcaecati eveniet cupiditate tempora dolorum a. Nisi nulla nesciunt saepe eligendi vel natus ex odit ut exercitationem.</p>
+          <p>Inventore, quo similique modi doloribus sed voluptas incidunt excepturi molestiae ea impedit cupiditate ut nobis commodi.</p>
+          <p class="tagline">- By Johannes Gutenberg in Mainz</p>
         </div>
-      </section>
-  </class>
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <div class="row row-cols-1 row-cols-md-3 g-4">
-    <div class="col">
-      <div class="card text-bg-light mb-3" style="max-width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <div class="col-md-6 col-lg-4">
+          <figure class="figure">
+            <img src="img/gutenberg.jpg" class="figure-img img-fluid" alt="Guetenberg Bible">
+            <figcaption class="figure-caption">A caption for the above image.</figcaption>
+          </figure>
         </div>
       </div>
-    </div>
-    <div class="col">
-      <div class="card text-bg-light mb-3" style="max-width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card text-bg-light mb-3" style="max-width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-        </div>
-      </div>
-    </div>
+    </section>
   </div>
-  <div class="container-fluid">
+  <section class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+      <div class="card text-bg-light">
+        <div class="card-body">
+          <h5 class="card-title">Reason #1</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card text-bg-light">
+        <div class="card-body">
+          <h5 class="card-title">Reason #2</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card text-bg-light">
+        <div class="card-body">
+          <h5 class="card-title">Reason #3</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
-<footer>Happy Birthday to me</footer>
-<style>
-    footer {
-      text-align: center;
-      background-color: white;
-      font-style: italic;
-    }
-</style>
+<footer><p class="text-center bg-white m-3 p-1">By Emma Gilliam</p></footer>
+<script src="js/bootstrap.bundle.min.js"></script>
 </html>
